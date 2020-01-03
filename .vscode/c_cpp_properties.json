@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files (x86)/Arduino/**",
+                "C:/Users/Jose/AppData/Local/Arduino15/packages/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "cppStandard": "c++20",
+            "compilerPath": "C:/MinGW/bin/g++.exe"
+        }
+    ],
+    "version": 4
+}

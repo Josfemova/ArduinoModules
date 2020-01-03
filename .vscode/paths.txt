@@ -1,0 +1,5 @@
+LIBRARIES
+C:\Users\Jose\Documents\Arduino\libraries
+
+ESP8266:
+C:\Users\Jose\AppData\Local\Arduino15\packages\esp8266
