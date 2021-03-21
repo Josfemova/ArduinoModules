@@ -4,15 +4,17 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Program Files (x86)/Arduino/**",
-                "C:/Users/Jose/AppData/Local/Arduino15/packages/**"
+                "${env:ProgramFiles(x86)}/Arduino/**",
+                "${USERPROFILE}/AppData/Local/Arduino15/packages/**",
+                "${USERPROFILE}/Documents/Arduino/libraries/SparkFun_MPU-9250_9_DOF_IMU_Breakout/**",
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "gcc-x64",
+            "intelliSenseMode": "${default}",
             "cppStandard": "c++20",
             "compilerPath": "C:/MinGW/bin/g++.exe"
         }
